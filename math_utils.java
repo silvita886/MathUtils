@@ -17,7 +17,14 @@ public int subtract(int a, int b) {
         throw new IllegalArgumentException("No se puede dividir por cero");
     }
     return (double) a / b;
+}public int add(int... numbers) {
+    int sum = 0;
+    for (int num : numbers) {
+        sum += num;
+    }
+    return sum;
 }
+
 }
 	
 
