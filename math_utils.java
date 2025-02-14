@@ -11,7 +11,7 @@ public static int multiply(int a, int b) {
     return a * b;}
 }
 public int subtract(int a, int b) {
-    return a + b; // Esto es incorrecto, debería ser resta, no suma.
+	  return a - b;  // Ahora la operación es la correcta (resta).
 }
 }
 	
